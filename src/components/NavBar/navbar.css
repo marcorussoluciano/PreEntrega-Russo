@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 200px;
+}
+.logo{
+    text-align: center;
+}
+.containerNav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.categories{
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+.cartWidget{
+    display: flex;
+    
+}
+
