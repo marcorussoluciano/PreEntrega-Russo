@@ -1,17 +1,15 @@
-import NavBar from './components/NavBar/NavBar'
-import './App.css'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import CartWidget from './components/NavBar/CartWidget'
+import './App.css';
+import ItemListContainerWithHoc from "./components/ItemListContainer/ItemListContainer"
+import NavBar from './components/NavBar/NavBar';
+
 
 function App() {
-  
-
   return (
-    <div className="container">
-      <NavBar />
-      <ItemListContainer greeting={"Bienvenido a Skrs Or Love"}/>
+    <div>
+    <NavBar />
+    
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
